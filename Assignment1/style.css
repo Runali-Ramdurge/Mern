@@ -1,0 +1,106 @@
+body {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.headers {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
+
+img {
+  height: 300px;
+  width: 270px;
+}
+
+.tbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 3%;
+  width: 40%;
+}
+
+.formvdo {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.regForm {
+  width: 450px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.row label {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.row input,
+.row select,
+.row textarea {
+  flex: 1;
+  padding: 5px;
+}
+
+.inline {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.btns {
+  margin-top: 15px;
+}
+
+button {
+  padding: 6px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
