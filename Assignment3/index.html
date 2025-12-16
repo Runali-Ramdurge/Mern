@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <div class="login-container">
+        <form id="loginForm" novalidate>
+          <h2>Login</h2>
+
+          <!-- EMAIL -->
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+
+            <div class="input-wrapper">
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                placeholder="Enter email"
+                required
+              />
+              <span class="status-icon"></span>
+            </div>
+
+            <small class="error-text" id="emailError">
+              Please enter a valid email address.
+            </small>
+          </div>
+
+          <!-- PASSWORD -->
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+
+            <div class="input-wrapper">
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword"
+                placeholder="Password"
+                minlength="6"
+                required
+              />
+              <span class="status-icon"></span>
+            </div>
+
+            <small class="error-text" id="passwordError">
+              Password must be at least 6 characters long.
+            </small>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
